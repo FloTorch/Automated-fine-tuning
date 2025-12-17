@@ -18,7 +18,6 @@ results/
 *.log
 
 # Models
-models/
 *.bin
 *.safetensors
 
