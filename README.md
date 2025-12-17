@@ -41,11 +41,11 @@ A modular, production-ready system for automated LLM fine-tuning with rule-based
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd finetuning-system
+git clone https://github.com/FloTorch/Automated-fine-tuning.git
+cd Automated-fine-tuning
 
 # Install dependencies (automatic on first run)
-python run.py configs/config_gemma3.json
+pip install -r requirements.txt
 ```
 
 The system automatically installs all required packages on first run, including:
