@@ -28,7 +28,6 @@ A modular, production-ready system for automated LLM fine-tuning with rule-based
 - [Advanced Features](#advanced-features)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
@@ -571,38 +570,10 @@ Contributions are welcome! Please follow these steps:
 
 - Follow PEP 8 style guide
 - Add docstrings to all functions
-- Include unit tests for new features
 - Update README.md with new features
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📧 Contact
-
-For questions, issues, or suggestions:
-- Open an issue on GitHub
-- Contact: [your-email@example.com]
 
 ## 🙏 Acknowledgments
 
 - [Unsloth](https://github.com/unslothai/unsloth) for efficient fine-tuning
 - [HuggingFace](https://huggingface.co/) for transformers and datasets
 - [TRL](https://github.com/huggingface/trl) for SFT training
-
-## 📚 Citation
-
-If you use this system in your research, please cite:
-
-```bibtex
-@software{automated_finetuning_system,
-  title = {Automated Fine-tuning System},
-  author = {Your Name},
-  year = {2024},
-  url = {https://github.com/your-username/finetuning-system}
-}
-```
-
----
-
-**Made with ❤️ for the AI community**
