@@ -1,6 +1,6 @@
 # Automated Fine-tuning System
 
-A modular, production-ready system for automated LLM fine-tuning with rule-based experiment execution and intelligent model selection. Cross-platform compatible (Windows, Linux, macOS) with automatic GPU detection and CUDA support.
+A modular, production-ready system for automated LLM fine-tuning with rule-based experiment execution and intelligent model selection. Cross-platform compatible (Windows, Linux) with automatic GPU detection and CUDA support.
 
 ## 🌟 Features
 
@@ -10,7 +10,7 @@ A modular, production-ready system for automated LLM fine-tuning with rule-based
 - **📈 Comprehensive Metrics**: Precision, Recall, F1 Score, and Latency tracking
 - **🔄 PDF-to-QA Generation**: Automatic dataset creation from PDF documents
 - **💾 Dataset-specific Results**: Organized output with date tracking per dataset
-- **🌐 Cross-platform**: Works on Windows, Linux, macOS, Google Colab, and Cloud environments
+- **🌐 Cross-platform**: Works on Windows, Linux, Google Colab, and Cloud environments
 - **📝 Advanced Logging**: Detailed logging system for debugging and monitoring
 - **🖥️ GPU Optimization**: Intelligent GPU detection with automatic CUDA-compatible PyTorch installation
 - **💾 Memory Management**: Automatic batch size adjustment for low-memory GPUs
@@ -59,7 +59,7 @@ python -m venv venv
 .\venv\Scripts\activate
 ```
 
-**On Linux/macOS:**
+**On Linux:**
 ```bash
 # Create virtual environment
 python3 -m venv venv
@@ -81,7 +81,7 @@ python run.py --install-packages
 
 **What this command does:**
 - ✅ Upgrades pip to the latest version
-- ✅ Detects your operating system (Windows/Linux/macOS)
+- ✅ Detects your operating system (Windows/Linux)
 - ✅ Installs Unsloth (with Windows-specific extras if on Windows)
 - ✅ Installs `triton-windows==3.3.1.post21` on Windows
 - ✅ Detects CUDA version using `nvidia-smi`
@@ -128,13 +128,10 @@ After installation, you can run experiments:
 ```bash
 # Make sure virtual environment is activated
 # Windows: .\venv\Scripts\activate
-# Linux/macOS: source venv/bin/activate
+# Linux: source venv/bin/activate
 
 # Run a single experiment configuration
 python run.py configs/config_gemma3.json
-
-# Run multiple configurations
-python run.py configs/config_gemma3.json configs/config_qwen3.json
 ```
 
 ### With Custom Parameters
@@ -391,7 +388,7 @@ python run.py configs/config_gemma3.json
 - Forces single-process mode for dataset processing
 - Adjusts batch size for GPUs with < 6GB memory
 
-### Linux/macOS
+### Linux
 
 **Setup:**
 ```bash
@@ -510,7 +507,6 @@ pip install <package-name>
 ```bash
 # Make sure virtual environment is activated
 # Windows: .\venv\Scripts\activate
-# Linux/macOS: source venv/bin/activate
 
 # Reinstall packages
 python run.py --install-packages
