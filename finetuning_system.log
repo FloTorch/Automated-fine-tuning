@@ -1,0 +1,1128 @@
+2026-02-09 06:57:36,945 - INFO - GPU detected: NVIDIA A10G
+2026-02-09 06:57:36,945 - INFO - GPU Memory: 23.68 GB
+2026-02-09 06:57:36,945 - INFO - CUDA Version: 12.8
+2026-02-09 06:57:36,945 - INFO - Config files: ../../new_automated/Automated-fine-tuning/configs/new_config.py
+2026-02-09 06:57:36,945 - INFO - Running experiments from: ../../new_automated/Automated-fine-tuning/configs/new_config.py
+2026-02-09 06:57:37,685 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-09 06:57:53,414 - INFO - Starting training...
+2026-02-09 06:57:53,414 - INFO - GPU Memory: 22.06 GB
+2026-02-09 06:57:54,346 - INFO - Unsloth: Padding-free batching auto-enabled for SFTTrainer instance.
+2026-02-09 06:59:10,434 - INFO - Use pytorch device_name: cuda:0
+2026-02-09 06:59:10,434 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-09 07:05:42,559 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-09 07:05:53,937 - INFO - Starting training...
+2026-02-09 07:05:53,937 - INFO - GPU Memory: 22.06 GB
+2026-02-09 07:07:12,325 - INFO - Use pytorch device_name: cuda:0
+2026-02-09 07:07:12,325 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-09 07:13:14,172 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-09 07:13:25,941 - INFO - Starting training...
+2026-02-09 07:13:25,942 - INFO - GPU Memory: 22.06 GB
+2026-02-09 07:17:08,325 - INFO - Use pytorch device_name: cuda:0
+2026-02-09 07:17:08,325 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-09 07:21:37,769 - INFO - HTML report written to results/report_kroshan_qa_evaluator.html
+2026-02-09 07:21:37,770 - INFO - Results saved successfully. Best model: google/gemma-3-1b-it/exp3.2 (F1=0.0375)
+2026-02-09 07:21:37,778 - INFO - ============================================================
+2026-02-09 07:21:37,778 - INFO - FINAL RESULTS
+2026-02-09 07:21:37,778 - INFO - ============================================================
+2026-02-09 07:21:37,778 - INFO - Best Model for dataset 'kroshan/qa_evaluator': google/gemma-3-1b-it/exp3.2 with F1 Score: 0.0375240380458025 and Latency: 8.346006356179714
+2026-02-09 07:21:37,778 - INFO - ============================================================
+2026-02-09 08:40:37,252 - INFO - GPU detected: NVIDIA A10G
+2026-02-09 08:40:37,253 - INFO - GPU Memory: 23.68 GB
+2026-02-09 08:40:37,253 - INFO - CUDA Version: 12.8
+2026-02-09 08:40:37,253 - INFO - Config files: ../../Automated-finetunning/Automated-fine-tuning/configs/config_qwen3.json
+2026-02-09 08:40:37,253 - INFO - Running experiments from: ../../Automated-finetunning/Automated-fine-tuning/configs/config_qwen3.json
+2026-02-09 08:40:37,705 - INFO - ============================================================
+2026-02-09 08:40:37,705 - INFO - Experiment: exp1
+2026-02-09 08:40:37,705 - INFO - Train batch: first_batch
+2026-02-09 08:40:37,705 - INFO - Run always: True
+2026-02-09 08:40:37,706 - INFO - Rules: none
+2026-02-09 08:40:37,706 - INFO - ============================================================
+2026-02-09 08:40:37,706 - INFO - ============================================================
+2026-02-09 08:40:37,706 - INFO - Starting experiment for model: google/gemma-3-1b-it
+2026-02-09 08:40:37,706 - INFO - Chat template: qwen3-instruct
+2026-02-09 08:40:37,706 - INFO - SFT config: batch_size=8, epochs=2, lr=2e-05
+2026-02-09 08:40:37,706 - INFO - ============================================================
+2026-02-09 08:40:37,706 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-09 08:40:46,871 - INFO - Starting training...
+2026-02-09 08:40:46,871 - INFO - GPU Memory: 22.06 GB
+2026-02-09 08:40:47,792 - INFO - Unsloth: Padding-free batching auto-enabled for SFTTrainer instance.
+2026-02-09 08:41:41,403 - INFO - Use pytorch device_name: cuda:0
+2026-02-09 08:41:41,403 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-09 08:48:07,490 - INFO - ============================================================
+2026-02-09 08:48:07,490 - INFO - Experiment completed.
+2026-02-09 08:48:07,491 - INFO - ============================================================
+2026-02-09 08:48:07,491 - INFO - ============================================================
+2026-02-09 08:48:07,491 - INFO - Experiment: exp2
+2026-02-09 08:48:07,491 - INFO - Train batch: second_batch
+2026-02-09 08:48:07,491 - INFO - Run always: True
+2026-02-09 08:48:07,491 - INFO - Rules: none
+2026-02-09 08:48:07,491 - INFO - ============================================================
+2026-02-09 08:48:07,491 - INFO - ============================================================
+2026-02-09 08:48:07,491 - INFO - Starting experiment for model: google/gemma-3-1b-it
+2026-02-09 08:48:07,491 - INFO - Chat template: qwen3-instruct
+2026-02-09 08:48:07,491 - INFO - SFT config: batch_size=8, epochs=2, lr=2e-05
+2026-02-09 08:48:07,491 - INFO - ============================================================
+2026-02-09 08:48:07,491 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-09 08:48:17,839 - INFO - Starting training...
+2026-02-09 08:48:17,840 - INFO - GPU Memory: 22.06 GB
+2026-02-09 08:49:35,529 - INFO - Use pytorch device_name: cuda:0
+2026-02-09 08:49:35,529 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-09 08:55:36,569 - INFO - ============================================================
+2026-02-09 08:55:36,569 - INFO - Experiment completed.
+2026-02-09 08:55:36,569 - INFO - ============================================================
+2026-02-09 08:55:36,569 - INFO - ============================================================
+2026-02-09 08:55:36,569 - INFO - Experiment: exp2.1
+2026-02-09 08:55:36,570 - INFO - Train batch: second_batch
+2026-02-09 08:55:36,570 - INFO - Run always: True
+2026-02-09 08:55:36,570 - INFO - Rules: [{'conditions': [{'left': 'exp2.last_train_loss', 'op': '>', 'right': 'exp2.min_train_loss'}]}]
+2026-02-09 08:55:36,570 - INFO - ============================================================
+2026-02-09 08:55:36,570 - INFO - ============================================================
+2026-02-09 08:55:36,570 - INFO - Experiment: exp3.1
+2026-02-09 08:55:36,570 - INFO - Train batch: second_batch
+2026-02-09 08:55:36,570 - INFO - Run always: False
+2026-02-09 08:55:36,570 - INFO - Rules: [{'conditions': [{'left': 'exp1.f1', 'op': '>', 'right': 'exp2.f1'}, {'left': 'exp2.last_eval_loss', 'op': '>', 'right': 'exp2.min_eval_loss'}, {'left': 'exp2.last_train_loss', 'op': '<=', 'right': 'exp2.min_train_loss'}]}]
+2026-02-09 08:55:36,570 - INFO - ============================================================
+2026-02-09 08:55:36,570 - INFO - ============================================================
+2026-02-09 08:55:36,570 - INFO - Experiment: exp3.2
+2026-02-09 08:55:36,571 - INFO - Train batch: third_batch
+2026-02-09 08:55:36,571 - INFO - Run always: False
+2026-02-09 08:55:36,571 - INFO - Rules: [{'conditions': [{'left': 'exp1.f1', 'op': '<', 'right': 'exp2.f1'}, {'left': 'exp2.last_train_loss', 'op': '<=', 'right': 'exp2.min_train_loss'}, {'left': 'exp2.last_eval_loss', 'op': '<=', 'right': 'exp2.min_eval_loss'}]}]
+2026-02-09 08:55:36,571 - INFO - ============================================================
+2026-02-09 08:55:36,571 - INFO - ============================================================
+2026-02-09 08:55:36,571 - INFO - Starting experiment for model: google/gemma-3-1b-it
+2026-02-09 08:55:36,571 - INFO - Chat template: qwen3-instruct
+2026-02-09 08:55:36,571 - INFO - SFT config: batch_size=8, epochs=4, lr=5e-05
+2026-02-09 08:55:36,571 - INFO - ============================================================
+2026-02-09 08:55:36,571 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-09 08:55:47,308 - INFO - Starting training...
+2026-02-09 08:55:47,308 - INFO - GPU Memory: 22.06 GB
+2026-02-09 08:59:29,040 - INFO - Use pytorch device_name: cuda:0
+2026-02-09 08:59:29,040 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-09 09:03:56,600 - INFO - ============================================================
+2026-02-09 09:03:56,600 - INFO - Experiment completed.
+2026-02-09 09:03:56,600 - INFO - ============================================================
+2026-02-09 09:03:59,348 - INFO - HTML report written to results/report_kroshan_qa_evaluator.html
+2026-02-09 09:03:59,348 - INFO - Results saved successfully. Best model: google/gemma-3-1b-it/exp3.2 (F1=0.0375)
+2026-02-09 09:03:59,352 - INFO - ============================================================
+2026-02-09 09:03:59,352 - INFO - FINAL RESULTS
+2026-02-09 09:03:59,352 - INFO - ============================================================
+2026-02-09 09:03:59,352 - INFO - Best Model for dataset 'kroshan/qa_evaluator': google/gemma-3-1b-it/exp3.2 with F1 Score: 0.0375240380458025 and Latency: 8.346006356179714
+2026-02-09 09:03:59,352 - INFO - ============================================================
+2026-02-11 14:31:51,904 - INFO - GPU detected: NVIDIA A10G
+2026-02-11 14:31:51,905 - INFO - GPU Memory: 23.68 GB
+2026-02-11 14:31:51,905 - INFO - CUDA Version: 12.8
+2026-02-11 14:31:51,905 - INFO - Config files: ./configs/qwen_cars_qa.json
+2026-02-11 14:31:51,905 - INFO - Running experiments from: ./configs/qwen_cars_qa.json
+2026-02-11 14:31:52,562 - INFO - ============================================================
+2026-02-11 14:31:52,562 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-11 14:31:52,562 - INFO - Train batch: none
+2026-02-11 14:31:52,562 - INFO - Run always: true
+2026-02-11 14:31:52,562 - INFO - Rules: none
+2026-02-11 14:31:52,562 - INFO - ============================================================
+2026-02-12 01:23:10,553 - INFO - GPU detected: NVIDIA A10G
+2026-02-12 01:23:10,553 - INFO - GPU Memory: 23.68 GB
+2026-02-12 01:23:10,553 - INFO - CUDA Version: 12.8
+2026-02-12 01:23:10,553 - INFO - Config files: configs/config_qwen25_cars_qa.json
+2026-02-12 01:23:10,553 - INFO - Running experiments from: configs/config_qwen25_cars_qa.json
+2026-02-12 01:26:05,364 - INFO - GPU detected: NVIDIA A10G
+2026-02-12 01:26:05,364 - INFO - GPU Memory: 23.68 GB
+2026-02-12 01:26:05,364 - INFO - CUDA Version: 12.8
+2026-02-12 01:26:05,364 - INFO - Config files: configs/config_qwen25_cars_qa.json
+2026-02-12 01:26:05,364 - INFO - Running experiments from: configs/config_qwen25_cars_qa.json
+2026-02-12 01:26:05,927 - INFO - ============================================================
+2026-02-12 01:26:05,927 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-12 01:26:05,927 - INFO - Train batch: none
+2026-02-12 01:26:05,927 - INFO - Run always: true
+2026-02-12 01:26:05,927 - INFO - Rules: none
+2026-02-12 01:26:05,927 - INFO - ============================================================
+2026-02-12 05:42:08,520 - INFO - GPU detected: NVIDIA A10G
+2026-02-12 05:42:08,520 - INFO - GPU Memory: 23.68 GB
+2026-02-12 05:42:08,520 - INFO - CUDA Version: 12.8
+2026-02-12 05:42:08,520 - INFO - Config files: configs/config_qwen25_cars_qa.json
+2026-02-12 05:42:08,520 - INFO - Running experiments from: configs/config_qwen25_cars_qa.json
+2026-02-12 05:42:09,361 - INFO - ============================================================
+2026-02-12 05:42:09,361 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-12 05:42:09,361 - INFO - Train batch: none
+2026-02-12 05:42:09,361 - INFO - Run always: true
+2026-02-12 05:42:09,361 - INFO - Rules: none
+2026-02-12 05:42:09,361 - INFO - ============================================================
+2026-02-12 05:42:09,361 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-12 05:42:21,488 - INFO - Use pytorch device_name: cuda:0
+2026-02-12 05:42:21,488 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-12 06:49:08,188 - INFO - GPU detected: NVIDIA A10G
+2026-02-12 06:49:08,188 - INFO - GPU Memory: 23.68 GB
+2026-02-12 06:49:08,188 - INFO - CUDA Version: 12.8
+2026-02-12 06:49:08,188 - INFO - Config files: configs/config_qwen25_cars_qa.json
+2026-02-12 06:49:08,188 - INFO - Running experiments from: configs/config_qwen25_cars_qa.json
+2026-02-12 06:49:08,672 - INFO - ============================================================
+2026-02-12 06:49:08,672 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-12 06:49:08,672 - INFO - Train batch: none
+2026-02-12 06:49:08,672 - INFO - Run always: true
+2026-02-12 06:49:08,672 - INFO - Rules: none
+2026-02-12 06:49:08,672 - INFO - ============================================================
+2026-02-12 06:49:08,672 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-12 06:49:17,019 - INFO - Use pytorch device_name: cuda:0
+2026-02-12 06:49:17,020 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-12 07:14:33,116 - INFO - GPU detected: NVIDIA A10G
+2026-02-12 07:14:33,116 - INFO - GPU Memory: 23.68 GB
+2026-02-12 07:14:33,116 - INFO - CUDA Version: 12.8
+2026-02-12 07:14:33,116 - INFO - Config files: configs/config_qwen25_cars_qa.json
+2026-02-12 07:14:33,116 - INFO - Running experiments from: configs/config_qwen25_cars_qa.json
+2026-02-12 07:14:33,654 - INFO - ============================================================
+2026-02-12 07:14:33,654 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-12 07:14:33,655 - INFO - Train batch: none
+2026-02-12 07:14:33,655 - INFO - Run always: true
+2026-02-12 07:14:33,655 - INFO - Rules: none
+2026-02-12 07:14:33,655 - INFO - ============================================================
+2026-02-12 07:14:33,655 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-12 07:14:41,862 - INFO - Use pytorch device_name: cuda:0
+2026-02-12 07:14:41,862 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-12 09:00:33,666 - INFO - GPU detected: NVIDIA A10G
+2026-02-12 09:00:33,666 - INFO - GPU Memory: 23.68 GB
+2026-02-12 09:00:33,666 - INFO - CUDA Version: 12.8
+2026-02-12 09:00:33,666 - INFO - Config files: configs/config_qwen25_cars_qa.json
+2026-02-12 09:00:33,666 - INFO - Running experiments from: configs/config_qwen25_cars_qa.json
+2026-02-12 09:00:34,313 - INFO - ============================================================
+2026-02-12 09:00:34,313 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-12 09:00:34,313 - INFO - Train batch: none
+2026-02-12 09:00:34,313 - INFO - Run always: true
+2026-02-12 09:00:34,313 - INFO - Rules: none
+2026-02-12 09:00:34,313 - INFO - ============================================================
+2026-02-12 09:00:34,313 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-12 09:00:42,381 - INFO - Use pytorch device_name: cuda:0
+2026-02-12 09:00:42,382 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-12 09:08:13,749 - INFO - ============================================================
+2026-02-12 09:08:13,749 - INFO - Experiment: exp1
+2026-02-12 09:08:13,749 - INFO - Train batch: first_batch
+2026-02-12 09:08:13,749 - INFO - Run always: True
+2026-02-12 09:08:13,749 - INFO - Rules: none
+2026-02-12 09:08:13,749 - INFO - ============================================================
+2026-02-12 09:08:13,749 - INFO - ============================================================
+2026-02-12 09:08:13,750 - INFO - Starting experiment for model: Qwen/Qwen2.5-0.5B
+2026-02-12 09:08:13,750 - INFO - Chat template: qwen3-instruct
+2026-02-12 09:08:13,750 - INFO - SFT config: batch_size=8, epochs=5, lr=1e-05
+2026-02-12 09:08:13,750 - INFO - ============================================================
+2026-02-12 09:08:13,750 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-12 09:08:21,915 - INFO - Starting training...
+2026-02-12 09:08:21,916 - INFO - GPU Memory: 22.06 GB
+2026-02-12 09:10:48,428 - INFO - Use pytorch device_name: cuda:0
+2026-02-12 09:10:48,428 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-12 09:19:54,628 - INFO - ============================================================
+2026-02-12 09:19:54,629 - INFO - Experiment completed.
+2026-02-12 09:19:54,629 - INFO - ============================================================
+2026-02-12 09:19:54,629 - INFO - ============================================================
+2026-02-12 09:19:54,629 - INFO - Experiment: exp2
+2026-02-12 09:19:54,629 - INFO - Train batch: second_batch
+2026-02-12 09:19:54,629 - INFO - Run always: True
+2026-02-12 09:19:54,629 - INFO - Rules: [{'conditions': [{'left': 'exp1.last_train_loss', 'op': '<=', 'right': 'exp1.min_train_loss'}, {'left': 'exp1.last_eval_loss', 'op': '<=', 'right': 'exp1.min_eval_loss'}, {'left': 'exp1.f1', 'op': '>', 'right': 'exp0.f1'}]}]
+2026-02-12 09:19:54,629 - INFO - ============================================================
+2026-02-12 09:19:54,629 - INFO - ============================================================
+2026-02-12 09:19:54,629 - INFO - Experiment: exp3
+2026-02-12 09:19:54,629 - INFO - Train batch: third_batch
+2026-02-12 09:19:54,630 - INFO - Run always: False
+2026-02-12 09:19:54,630 - INFO - Rules: [{'conditions': [{'left': 'exp2.last_train_loss', 'op': '<=', 'right': 'exp2.min_train_loss'}, {'left': 'exp2.last_eval_loss', 'op': '<=', 'right': 'exp2.min_eval_loss'}, {'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'}]}]
+2026-02-12 09:19:54,630 - INFO - ============================================================
+2026-02-13 03:51:32,476 - INFO - GPU detected: NVIDIA A10G
+2026-02-13 03:51:32,476 - INFO - GPU Memory: 23.68 GB
+2026-02-13 03:51:32,476 - INFO - CUDA Version: 12.8
+2026-02-13 03:51:32,476 - INFO - Config files: configs/config_qwen25_cars_qa.json
+2026-02-13 03:51:32,476 - INFO - Running experiments from: configs/config_qwen25_cars_qa.json
+2026-02-13 03:51:33,224 - INFO - ============================================================
+2026-02-13 03:51:33,224 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-13 03:51:33,224 - INFO - Train batch: none
+2026-02-13 03:51:33,224 - INFO - Run always: true
+2026-02-13 03:51:33,224 - INFO - Rules: none
+2026-02-13 03:51:33,224 - INFO - ============================================================
+2026-02-13 03:51:33,224 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-13 03:51:41,588 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 03:51:41,588 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 03:52:21,559 - INFO - GPU detected: NVIDIA A10G
+2026-02-13 03:52:21,559 - INFO - GPU Memory: 23.68 GB
+2026-02-13 03:52:21,559 - INFO - CUDA Version: 12.8
+2026-02-13 03:52:21,559 - INFO - Config files: configs/config_qwen25_cars_qa.json
+2026-02-13 03:52:21,559 - INFO - Running experiments from: configs/config_qwen25_cars_qa.json
+2026-02-13 03:52:22,002 - INFO - ============================================================
+2026-02-13 03:52:22,002 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-13 03:52:22,002 - INFO - Train batch: none
+2026-02-13 03:52:22,002 - INFO - Run always: true
+2026-02-13 03:52:22,002 - INFO - Rules: none
+2026-02-13 03:52:22,002 - INFO - ============================================================
+2026-02-13 03:52:22,002 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-13 03:52:30,295 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 03:52:30,296 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 04:00:00,920 - INFO - ============================================================
+2026-02-13 04:00:00,920 - INFO - Experiment: exp1
+2026-02-13 04:00:00,920 - INFO - Train batch: first_batch
+2026-02-13 04:00:00,920 - INFO - Run always: True
+2026-02-13 04:00:00,920 - INFO - Rules: none
+2026-02-13 04:00:00,920 - INFO - ============================================================
+2026-02-13 04:00:00,921 - INFO - ============================================================
+2026-02-13 04:00:00,921 - INFO - Starting experiment for model: Qwen/Qwen2.5-0.5B
+2026-02-13 04:00:00,921 - INFO - Chat template: qwen3-instruct
+2026-02-13 04:00:00,921 - INFO - SFT config: batch_size=8, epochs=5, lr=1e-05
+2026-02-13 04:00:00,921 - INFO - ============================================================
+2026-02-13 04:00:00,921 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-13 04:00:09,156 - INFO - Starting training...
+2026-02-13 04:00:09,156 - INFO - GPU Memory: 22.06 GB
+2026-02-13 04:02:07,586 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 04:02:07,587 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 04:11:14,268 - INFO - ============================================================
+2026-02-13 04:11:14,268 - INFO - Experiment completed.
+2026-02-13 04:11:14,268 - INFO - ============================================================
+2026-02-13 04:11:14,268 - INFO - ============================================================
+2026-02-13 04:11:14,268 - INFO - Experiment: exp2
+2026-02-13 04:11:14,268 - INFO - Train batch: second_batch
+2026-02-13 04:11:14,268 - INFO - Run always: True
+2026-02-13 04:11:14,269 - INFO - Rules: [{'conditions': [{'left': 'exp1.last_train_loss', 'op': '<=', 'right': 'exp1.min_train_loss'}, {'left': 'exp1.last_eval_loss', 'op': '<=', 'right': 'exp1.min_eval_loss'}, {'left': 'exp1.f1', 'op': '>', 'right': 'exp0.f1'}]}]
+2026-02-13 04:11:14,269 - INFO - ============================================================
+2026-02-13 04:11:14,269 - INFO - ============================================================
+2026-02-13 04:11:14,269 - INFO - Experiment: exp3
+2026-02-13 04:11:14,269 - INFO - Train batch: third_batch
+2026-02-13 04:11:14,269 - INFO - Run always: False
+2026-02-13 04:11:14,269 - INFO - Rules: [{'conditions': [{'left': 'exp2.last_train_loss', 'op': '<=', 'right': 'exp2.min_train_loss'}, {'left': 'exp2.last_eval_loss', 'op': '<=', 'right': 'exp2.min_eval_loss'}, {'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'}]}]
+2026-02-13 04:11:14,269 - INFO - ============================================================
+2026-02-13 04:11:14,270 - WARNING - Skipping rule condition {'left': 'exp2.last_train_loss', 'op': '<=', 'right': 'exp2.min_train_loss'} due to unavailable metric: "Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now."
+2026-02-13 04:11:15,350 - INFO - HTML report written to results/report_cars_details_qa.html
+2026-02-13 04:11:15,350 - INFO - Results saved successfully. Best model: Qwen/Qwen2.5-0.5B/exp0 (F1=0.1402)
+2026-02-13 04:11:15,357 - INFO - ============================================================
+2026-02-13 04:11:15,357 - INFO - FINAL RESULTS
+2026-02-13 04:11:15,357 - INFO - ============================================================
+2026-02-13 04:11:15,357 - INFO - Best Model for dataset 'cars_details_qa': Qwen/Qwen2.5-0.5B/exp0 with F1 Score: 0.140203307313574 and Latency: 7.502892486254374
+2026-02-13 04:11:15,357 - INFO - ============================================================
+2026-02-13 05:05:53,521 - INFO - GPU detected: NVIDIA A10G
+2026-02-13 05:05:53,521 - INFO - GPU Memory: 23.68 GB
+2026-02-13 05:05:53,521 - INFO - CUDA Version: 12.8
+2026-02-13 05:05:53,521 - INFO - Config files: configs/config_qwen25_cars_qa.json
+2026-02-13 05:05:53,521 - INFO - Running experiments from: configs/config_qwen25_cars_qa.json
+2026-02-13 05:05:54,128 - INFO - ============================================================
+2026-02-13 05:05:54,128 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-13 05:05:54,128 - INFO - Train batch: none
+2026-02-13 05:05:54,128 - INFO - Run always: true
+2026-02-13 05:05:54,128 - INFO - Rules: none
+2026-02-13 05:05:54,128 - INFO - Reason: baseline always runs first for comparison
+2026-02-13 05:05:54,128 - INFO - ============================================================
+2026-02-13 05:05:54,128 - INFO - ============================================================
+2026-02-13 05:05:54,128 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-13 05:06:02,355 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 05:06:02,356 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 05:06:02,357 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 05:08:45,649 - INFO - ============================================================
+2026-02-13 05:08:45,649 - INFO - Experiment: exp1
+2026-02-13 05:08:45,649 - INFO - Train batch: first_batch
+2026-02-13 05:08:45,649 - INFO - Run always: True
+2026-02-13 05:08:45,649 - INFO - Rules: none
+2026-02-13 05:08:45,649 - INFO - ============================================================
+2026-02-13 05:08:45,649 - INFO - [CONTINUE] exp1 has no rules, so it will run.
+2026-02-13 05:08:45,649 - INFO - ============================================================
+2026-02-13 05:08:45,649 - INFO - Starting experiment for model: Qwen/Qwen2.5-0.5B
+2026-02-13 05:08:45,649 - INFO - Chat template: qwen3-instruct
+2026-02-13 05:08:45,649 - INFO - SFT config: batch_size=8, epochs=5, lr=1e-05
+2026-02-13 05:08:45,649 - INFO - ============================================================
+2026-02-13 05:08:45,649 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-13 05:08:54,498 - INFO - Starting training...
+2026-02-13 05:08:54,498 - INFO - GPU Memory: 22.06 GB
+2026-02-13 05:10:52,339 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 05:10:52,341 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 05:10:52,341 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 05:13:25,416 - INFO - ============================================================
+2026-02-13 05:13:25,416 - INFO - Experiment completed.
+2026-02-13 05:13:25,416 - INFO - ============================================================
+2026-02-13 05:13:25,416 - INFO - [exp1] Training loss trend is stable/decreasing (start=2.450600, latest=1.876600).
+2026-02-13 05:13:25,416 - INFO - [exp1] Validation loss trend is stable/decreasing (start=2.262473, latest=2.119822).
+2026-02-13 05:13:25,416 - INFO - ============================================================
+2026-02-13 05:13:25,416 - INFO - Experiment: exp2
+2026-02-13 05:13:25,417 - INFO - Train batch: second_batch
+2026-02-13 05:13:25,417 - INFO - Run always: True
+2026-02-13 05:13:25,417 - INFO - Rules: [{'conditions': [{'left': 'exp1.last_train_loss', 'op': '<=', 'right': 'exp1.min_train_loss'}, {'left': 'exp1.last_eval_loss', 'op': '<=', 'right': 'exp1.min_eval_loss'}, {'left': 'exp1.f1', 'op': '>', 'right': 'exp0.f1'}]}]
+2026-02-13 05:13:25,417 - INFO - ============================================================
+2026-02-13 05:13:25,417 - INFO - [RULE 1 - exp2] FAIL -> exp1.last_train_loss <= exp1.min_train_loss (1.876600 <= 1.858900)
+2026-02-13 05:13:25,417 - INFO - [STOP] exp2 rule 1 failed; checking next rule if available.
+2026-02-13 05:13:25,417 - INFO - [STOP] exp2 did not run because no rule passed.
+2026-02-13 05:13:25,417 - INFO - ============================================================
+2026-02-13 05:13:25,417 - INFO - Experiment: exp3
+2026-02-13 05:13:25,417 - INFO - Train batch: third_batch
+2026-02-13 05:13:25,417 - INFO - Run always: False
+2026-02-13 05:13:25,417 - INFO - Rules: [{'conditions': [{'left': 'exp2.last_train_loss', 'op': '<=', 'right': 'exp2.min_train_loss'}, {'left': 'exp2.last_eval_loss', 'op': '<=', 'right': 'exp2.min_eval_loss'}, {'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'}]}]
+2026-02-13 05:13:25,418 - INFO - ============================================================
+2026-02-13 05:13:25,418 - WARNING - Skipping rule condition {'left': 'exp2.last_train_loss', 'op': '<=', 'right': 'exp2.min_train_loss'} due to unavailable metric: "Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now."
+2026-02-13 05:13:25,418 - INFO - [RULE 1 - exp3] UNAVAILABLE -> exp2.last_train_loss <= exp2.min_train_loss ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.")
+2026-02-13 05:13:25,418 - INFO - [STOP] exp3 rule 1 failed; checking next rule if available.
+2026-02-13 05:13:25,418 - INFO - [STOP] exp3 did not run because no rule passed.
+2026-02-13 05:13:27,209 - INFO - HTML report written to results/report_cars_details_qa.html
+2026-02-13 05:13:27,209 - INFO - Results saved successfully. Best model: Qwen/Qwen2.5-0.5B/exp0 (F1=0.1442)
+2026-02-13 05:13:27,209 - INFO - ============================================================
+2026-02-13 05:13:27,210 - INFO - FINAL RESULTS
+2026-02-13 05:13:27,210 - INFO - ============================================================
+2026-02-13 05:13:27,210 - INFO - An error occurred while fetching the best model: Error tokenizing data. C error: Expected 8 fields in line 4, saw 9
+
+2026-02-13 05:13:27,210 - INFO - ============================================================
+2026-02-13 05:28:47,080 - INFO - GPU detected: NVIDIA A10G
+2026-02-13 05:28:47,080 - INFO - GPU Memory: 23.68 GB
+2026-02-13 05:28:47,080 - INFO - CUDA Version: 12.8
+2026-02-13 05:28:47,080 - INFO - Config files: configs/qwen_cars_qa.json
+2026-02-13 05:28:47,080 - INFO - Running experiments from: configs/qwen_cars_qa.json
+2026-02-13 05:28:47,588 - INFO - ============================================================
+2026-02-13 05:28:47,588 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-13 05:28:47,588 - INFO - Train batch: none
+2026-02-13 05:28:47,588 - INFO - Run always: true
+2026-02-13 05:28:47,588 - INFO - Rules: none
+2026-02-13 05:28:47,588 - INFO - Reason: baseline always runs first for comparison
+2026-02-13 05:28:47,589 - INFO - ============================================================
+2026-02-13 05:28:47,589 - INFO - ============================================================
+2026-02-13 05:28:47,589 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-13 05:28:55,748 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 05:28:55,750 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 05:28:55,750 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 05:31:31,230 - INFO - ============================================================
+2026-02-13 05:31:31,230 - INFO - Experiment: exp1
+2026-02-13 05:31:31,230 - INFO - Train batch: first_batch
+2026-02-13 05:31:31,230 - INFO - Run always: True
+2026-02-13 05:31:31,230 - INFO - Rules: none
+2026-02-13 05:31:31,230 - INFO - ============================================================
+2026-02-13 05:31:31,230 - INFO - [CONTINUE] exp1 has no rules, so it will run.
+2026-02-13 05:31:31,230 - INFO - ============================================================
+2026-02-13 05:31:31,230 - INFO - Starting experiment for model: Qwen/Qwen2.5-0.5B
+2026-02-13 05:31:31,230 - INFO - Chat template: qwen3-instruct
+2026-02-13 05:31:31,230 - INFO - SFT config: batch_size=8, epochs=5, lr=1e-05
+2026-02-13 05:31:31,230 - INFO - ============================================================
+2026-02-13 05:31:31,230 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-13 05:31:39,402 - INFO - Starting training...
+2026-02-13 05:31:39,402 - INFO - GPU Memory: 22.06 GB
+2026-02-13 05:33:37,202 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 05:33:37,204 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 05:33:37,204 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 05:36:09,589 - INFO - ============================================================
+2026-02-13 05:36:09,589 - INFO - Experiment completed.
+2026-02-13 05:36:09,589 - INFO - ============================================================
+2026-02-13 05:36:09,590 - INFO - [exp1] Training loss trend is stable/decreasing (start=2.450600, latest=1.876600).
+2026-02-13 05:36:09,590 - INFO - [exp1] Validation loss trend is stable/decreasing (start=2.262473, latest=2.119822).
+2026-02-13 05:36:09,590 - INFO - ============================================================
+2026-02-13 05:36:09,590 - INFO - Experiment: exp2
+2026-02-13 05:36:09,590 - INFO - Train batch: second_batch
+2026-02-13 05:36:09,590 - INFO - Run always: True
+2026-02-13 05:36:09,590 - INFO - Rules: [{'conditions': [{'left': 'exp1.last_train_loss', 'op': '<=', 'right': 'exp1.min_train_loss'}, {'left': 'exp1.last_eval_loss', 'op': '<=', 'right': 'exp1.min_eval_loss'}, {'left': 'exp1.f1', 'op': '>', 'right': 'exp0.f1'}]}]
+2026-02-13 05:36:09,590 - INFO - ============================================================
+2026-02-13 05:36:09,591 - INFO - [RULE 1 - exp2] FAIL -> exp1.last_train_loss <= exp1.min_train_loss (1.876600 <= 1.858900)
+2026-02-13 05:36:09,591 - INFO - [STOP] exp2 rule 1 failed; checking next rule if available.
+2026-02-13 05:36:09,591 - INFO - [STOP] exp2 did not run because no rule passed.
+2026-02-13 05:36:09,591 - INFO - ============================================================
+2026-02-13 05:36:09,591 - INFO - Experiment: exp3
+2026-02-13 05:36:09,591 - INFO - Train batch: third_batch
+2026-02-13 05:36:09,591 - INFO - Run always: False
+2026-02-13 05:36:09,591 - INFO - Rules: [{'conditions': [{'left': 'exp2.last_train_loss', 'op': '<=', 'right': 'exp2.min_train_loss'}, {'left': 'exp2.last_eval_loss', 'op': '<=', 'right': 'exp2.min_eval_loss'}, {'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'}]}]
+2026-02-13 05:36:09,591 - INFO - ============================================================
+2026-02-13 05:36:09,591 - WARNING - Skipping rule condition {'left': 'exp2.last_train_loss', 'op': '<=', 'right': 'exp2.min_train_loss'} due to unavailable metric: "Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now."
+2026-02-13 05:36:09,591 - INFO - [RULE 1 - exp3] UNAVAILABLE -> exp2.last_train_loss <= exp2.min_train_loss ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.")
+2026-02-13 05:36:09,591 - INFO - [STOP] exp3 rule 1 failed; checking next rule if available.
+2026-02-13 05:36:09,591 - INFO - [STOP] exp3 did not run because no rule passed.
+2026-02-13 05:36:11,373 - INFO - HTML report written to results/report_cars_details_qa.html
+2026-02-13 05:36:11,373 - INFO - Results saved successfully. Best model: Qwen/Qwen2.5-0.5B/exp0 (F1=0.1442)
+2026-02-13 05:36:11,373 - INFO - ============================================================
+2026-02-13 05:36:11,373 - INFO - FINAL RESULTS
+2026-02-13 05:36:11,373 - INFO - ============================================================
+2026-02-13 05:36:11,373 - INFO - An error occurred while fetching the best model: Error tokenizing data. C error: Expected 8 fields in line 4, saw 9
+
+2026-02-13 05:36:11,373 - INFO - ============================================================
+2026-02-13 06:49:22,306 - INFO - GPU detected: NVIDIA A10G
+2026-02-13 06:49:22,306 - INFO - GPU Memory: 23.68 GB
+2026-02-13 06:49:22,306 - INFO - CUDA Version: 12.8
+2026-02-13 06:49:22,306 - INFO - Config files: configs/qwen_cars_qa.json
+2026-02-13 06:49:22,306 - INFO - Running experiments from: configs/qwen_cars_qa.json
+2026-02-13 06:49:22,856 - INFO - ============================================================
+2026-02-13 06:49:22,857 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-13 06:49:22,857 - INFO - Train batch: none
+2026-02-13 06:49:22,857 - INFO - Run always: true
+2026-02-13 06:49:22,857 - INFO - Rules: none
+2026-02-13 06:49:22,857 - INFO - Reason: baseline always runs first for comparison
+2026-02-13 06:49:22,857 - INFO - ============================================================
+2026-02-13 06:49:22,857 - INFO - ============================================================
+2026-02-13 06:49:22,857 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-13 06:49:31,042 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 06:49:31,044 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 06:49:31,044 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 06:52:07,474 - INFO - ============================================================
+2026-02-13 06:52:07,475 - INFO - Experiment: exp1
+2026-02-13 06:52:07,475 - INFO - Train batch: first_batch
+2026-02-13 06:52:07,475 - INFO - Run always: True
+2026-02-13 06:52:07,475 - INFO - Rules: none
+2026-02-13 06:52:07,475 - INFO - ============================================================
+2026-02-13 06:52:07,475 - INFO - [CONTINUE] exp1 has no rules, so it will run.
+2026-02-13 06:52:07,475 - INFO - ============================================================
+2026-02-13 06:52:07,475 - INFO - Starting experiment for model: Qwen/Qwen2.5-0.5B
+2026-02-13 06:52:07,475 - INFO - Chat template: qwen3-instruct
+2026-02-13 06:52:07,475 - INFO - SFT config: batch_size=8, epochs=5, lr=1e-05
+2026-02-13 06:52:07,475 - INFO - ============================================================
+2026-02-13 06:52:07,475 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-13 06:52:15,728 - INFO - Starting training...
+2026-02-13 06:52:15,728 - INFO - GPU Memory: 22.06 GB
+2026-02-13 06:54:13,957 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 06:54:13,959 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 06:54:13,959 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 06:56:47,165 - INFO - ============================================================
+2026-02-13 06:56:47,165 - INFO - Experiment completed.
+2026-02-13 06:56:47,165 - INFO - ============================================================
+2026-02-13 06:56:47,166 - INFO - [exp1] Training loss trend is stable/decreasing (start=2.450600, latest=1.876600).
+2026-02-13 06:56:47,166 - INFO - [exp1] Validation loss trend is stable/decreasing (start=2.262473, latest=2.119822).
+2026-02-13 06:56:47,166 - INFO - ============================================================
+2026-02-13 06:56:47,166 - INFO - Experiment: exp2
+2026-02-13 06:56:47,166 - INFO - Train batch: second_batch
+2026-02-13 06:56:47,166 - INFO - Run always: True
+2026-02-13 06:56:47,166 - INFO - Rules: [{'conditions': [{'left': 'exp1.last_train_loss', 'op': '<=', 'right': 'exp1.min_train_loss'}, {'left': 'exp1.last_eval_loss', 'op': '<=', 'right': 'exp1.min_eval_loss'}, {'left': 'exp1.f1', 'op': '>', 'right': 'exp0.f1'}]}]
+2026-02-13 06:56:47,166 - INFO - ============================================================
+2026-02-13 06:56:47,167 - INFO - [RULE 1 - exp2] FAIL -> exp1.last_train_loss <= exp1.min_train_loss (1.876600 <= 1.858900)
+2026-02-13 06:56:47,167 - INFO - [STOP] exp2 rule 1 failed; checking next rule if available.
+2026-02-13 06:56:47,167 - INFO - [STOP] exp2 did not run because no rule passed; last failure: rule 1 failed because exp1.last_train_loss <= exp1.min_train_loss evaluated as 1.876600 <= 1.858900.
+2026-02-13 06:56:47,167 - INFO - ============================================================
+2026-02-13 06:56:47,167 - INFO - Experiment: exp3
+2026-02-13 06:56:47,167 - INFO - Train batch: third_batch
+2026-02-13 06:56:47,167 - INFO - Run always: False
+2026-02-13 06:56:47,167 - INFO - Rules: [{'conditions': [{'left': 'exp2.last_train_loss', 'op': '<=', 'right': 'exp2.min_train_loss'}, {'left': 'exp2.last_eval_loss', 'op': '<=', 'right': 'exp2.min_eval_loss'}, {'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'}]}]
+2026-02-13 06:56:47,167 - INFO - ============================================================
+2026-02-13 06:56:47,167 - WARNING - Skipping rule condition {'left': 'exp2.last_train_loss', 'op': '<=', 'right': 'exp2.min_train_loss'} due to unavailable metric: "Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now."
+2026-02-13 06:56:47,167 - INFO - [RULE 1 - exp3] UNAVAILABLE -> exp2.last_train_loss <= exp2.min_train_loss ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.")
+2026-02-13 06:56:47,167 - INFO - [STOP] exp3 rule 1 failed; checking next rule if available.
+2026-02-13 06:56:47,167 - INFO - [STOP] exp3 did not run because no rule passed; last failure: rule 1 unavailable because exp2.last_train_loss <= exp2.min_train_loss could not be evaluated ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.").
+2026-02-13 06:56:48,965 - WARNING - Existing metrics file is malformed and will be repaired: results/metrics_cars_details_qa.csv
+2026-02-13 06:56:48,969 - INFO - HTML report written to results/report_cars_details_qa.html
+2026-02-13 06:56:48,969 - INFO - Results saved successfully. Best model: Qwen/Qwen2.5-0.5B/exp0 (F1=0.1442)
+2026-02-13 06:56:48,973 - INFO - ============================================================
+2026-02-13 06:56:48,973 - INFO - FINAL RESULTS
+2026-02-13 06:56:48,973 - INFO - ============================================================
+2026-02-13 06:56:48,973 - INFO - Decision: model validation not increasing
+Reason: Fine-tuned runs did not improve F1 over baseline (exp0), so validation gains are not increasing.
+Best Model for dataset 'cars_details_qa': Qwen/Qwen2.5-0.5B/exp0 with F1 Score: 0.1442306881672361 and Latency: 2.6007830341657003
+Pipeline stop details:
+- exp2 did not run because no rule passed; last failure: rule 1 failed because exp1.last_train_loss <= exp1.min_train_loss evaluated as 1.876600 <= 1.858900.
+- exp3 did not run because no rule passed; last failure: rule 1 unavailable because exp2.last_train_loss <= exp2.min_train_loss could not be evaluated ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.").
+2026-02-13 06:56:48,973 - INFO - ============================================================
+2026-02-13 07:39:48,276 - INFO - GPU detected: NVIDIA A10G
+2026-02-13 07:39:48,276 - INFO - GPU Memory: 23.68 GB
+2026-02-13 07:39:48,276 - INFO - CUDA Version: 12.8
+2026-02-13 07:39:48,276 - INFO - Config files: configs/config_qwen25_cars_qa.json
+2026-02-13 07:39:48,276 - INFO - Running experiments from: configs/config_qwen25_cars_qa.json
+2026-02-13 07:39:48,816 - INFO - ============================================================
+2026-02-13 07:39:48,816 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-13 07:39:48,816 - INFO - Train batch: none
+2026-02-13 07:39:48,816 - INFO - Run always: true
+2026-02-13 07:39:48,816 - INFO - Rules: none
+2026-02-13 07:39:48,816 - INFO - Reason: baseline always runs first for comparison
+2026-02-13 07:39:48,816 - INFO - ============================================================
+2026-02-13 07:39:48,816 - INFO - ============================================================
+2026-02-13 07:39:48,816 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-13 07:39:56,940 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 07:39:56,942 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 07:39:56,942 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 07:42:31,406 - INFO - ============================================================
+2026-02-13 07:42:31,406 - INFO - Experiment: exp1
+2026-02-13 07:42:31,406 - INFO - Train batch: first_batch
+2026-02-13 07:42:31,406 - INFO - Run always: True
+2026-02-13 07:42:31,406 - INFO - Rules: none
+2026-02-13 07:42:31,406 - INFO - ============================================================
+2026-02-13 07:42:31,406 - INFO - [CONTINUE] exp1 has no rules, so it will run.
+2026-02-13 07:42:31,406 - INFO - ============================================================
+2026-02-13 07:42:31,406 - INFO - Starting experiment for model: Qwen/Qwen2.5-0.5B
+2026-02-13 07:42:31,406 - INFO - Chat template: qwen3-instruct
+2026-02-13 07:42:31,406 - INFO - SFT config: batch_size=8, epochs=5, lr=1e-05
+2026-02-13 07:42:31,406 - INFO - ============================================================
+2026-02-13 07:42:31,406 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-13 07:42:39,641 - INFO - Starting training...
+2026-02-13 07:42:39,642 - INFO - GPU Memory: 22.06 GB
+2026-02-13 07:44:37,404 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 07:44:37,406 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 07:44:37,406 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 07:47:08,718 - INFO - ============================================================
+2026-02-13 07:47:08,719 - INFO - Experiment completed.
+2026-02-13 07:47:08,719 - INFO - ============================================================
+2026-02-13 07:47:08,719 - INFO - [exp1] Training loss trend is stable/decreasing (start=2.450600, latest=1.876600).
+2026-02-13 07:47:08,719 - INFO - [exp1] Validation loss trend is stable/decreasing (start=2.262473, latest=2.119822).
+2026-02-13 07:47:08,719 - INFO - ============================================================
+2026-02-13 07:47:08,719 - INFO - Experiment: exp2
+2026-02-13 07:47:08,719 - INFO - Train batch: second_batch
+2026-02-13 07:47:08,719 - INFO - Run always: True
+2026-02-13 07:47:08,719 - INFO - Rules: [{'conditions': [{'left': 'exp1.f1', 'op': '>', 'right': 'exp0.f1'}]}]
+2026-02-13 07:47:08,719 - INFO - ============================================================
+2026-02-13 07:47:08,720 - INFO - [RULE 1 - exp2] FAIL -> exp1.f1 > exp0.f1 (0.095860 > 0.144231)
+2026-02-13 07:47:08,720 - INFO - [STOP] exp2 rule 1 failed; checking next rule if available.
+2026-02-13 07:47:08,720 - INFO - [STOP] exp2 did not run because no rule passed; last failure: rule 1 failed because exp1.f1 > exp0.f1 evaluated as 0.095860 > 0.144231.
+2026-02-13 07:47:08,720 - INFO - ============================================================
+2026-02-13 07:47:08,720 - INFO - Experiment: exp3
+2026-02-13 07:47:08,720 - INFO - Train batch: third_batch
+2026-02-13 07:47:08,720 - INFO - Run always: False
+2026-02-13 07:47:08,720 - INFO - Rules: [{'conditions': [{'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'}]}]
+2026-02-13 07:47:08,720 - INFO - ============================================================
+2026-02-13 07:47:08,720 - WARNING - Skipping rule condition {'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'} due to unavailable metric: "Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now."
+2026-02-13 07:47:08,720 - INFO - [RULE 1 - exp3] UNAVAILABLE -> exp2.f1 >= exp1.f1 ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.")
+2026-02-13 07:47:08,720 - INFO - [STOP] exp3 rule 1 failed; checking next rule if available.
+2026-02-13 07:47:08,720 - INFO - [STOP] exp3 did not run because no rule passed; last failure: rule 1 unavailable because exp2.f1 >= exp1.f1 could not be evaluated ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.").
+2026-02-13 07:47:10,509 - INFO - HTML report written to results/report_cars_details_qa.html
+2026-02-13 07:47:10,509 - INFO - Results saved successfully. Best model: Qwen/Qwen2.5-0.5B/exp0 (F1=0.1442)
+2026-02-13 07:47:10,513 - INFO - ============================================================
+2026-02-13 07:47:10,513 - INFO - FINAL RESULTS
+2026-02-13 07:47:10,513 - INFO - ============================================================
+2026-02-13 07:47:10,513 - INFO - Decision: model validation not increasing
+Reason: Fine-tuned runs did not improve F1 over baseline (exp0), so validation gains are not increasing.
+Best Model for dataset 'cars_details_qa': Qwen/Qwen2.5-0.5B/exp0 with F1 Score: 0.1442306881672361 and Latency: 2.5676716526349384
+Pipeline stop details:
+- exp2 did not run because no rule passed; last failure: rule 1 failed because exp1.f1 > exp0.f1 evaluated as 0.095860 > 0.144231.
+- exp3 did not run because no rule passed; last failure: rule 1 unavailable because exp2.f1 >= exp1.f1 could not be evaluated ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.").
+2026-02-13 07:47:10,513 - INFO - ============================================================
+2026-02-13 09:51:55,383 - INFO - GPU detected: NVIDIA A10G
+2026-02-13 09:51:55,383 - INFO - GPU Memory: 23.68 GB
+2026-02-13 09:51:55,383 - INFO - CUDA Version: 12.8
+2026-02-13 09:51:55,383 - INFO - Config files: configs/config_qwen25_cars_qa.json
+2026-02-13 09:51:55,384 - INFO - Running experiments from: configs/config_qwen25_cars_qa.json
+2026-02-13 09:51:55,960 - INFO - ============================================================
+2026-02-13 09:51:55,960 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-13 09:51:55,960 - INFO - Train batch: none
+2026-02-13 09:51:55,960 - INFO - Run always: true
+2026-02-13 09:51:55,960 - INFO - Rules: none
+2026-02-13 09:51:55,960 - INFO - Reason: baseline always runs first for comparison
+2026-02-13 09:51:55,960 - INFO - ============================================================
+2026-02-13 09:51:55,961 - INFO - ============================================================
+2026-02-13 09:51:55,961 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-13 09:52:04,491 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 09:52:04,493 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 09:52:04,493 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 09:54:39,645 - INFO - ============================================================
+2026-02-13 09:54:39,645 - INFO - Experiment: exp1
+2026-02-13 09:54:39,645 - INFO - Train batch: first_batch
+2026-02-13 09:54:39,645 - INFO - Run always: True
+2026-02-13 09:54:39,646 - INFO - Rules: none
+2026-02-13 09:54:39,646 - INFO - ============================================================
+2026-02-13 09:54:39,646 - INFO - [CONTINUE] exp1 has no rules, so it will run.
+2026-02-13 09:54:39,646 - INFO - ============================================================
+2026-02-13 09:54:39,646 - INFO - Starting experiment for model: Qwen/Qwen2.5-0.5B
+2026-02-13 09:54:39,646 - INFO - Chat template: qwen3-instruct
+2026-02-13 09:54:39,646 - INFO - SFT config: batch_size=8, epochs=5, lr=1e-05
+2026-02-13 09:54:39,646 - INFO - ============================================================
+2026-02-13 09:54:39,646 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-13 09:54:47,828 - INFO - Starting training...
+2026-02-13 09:54:47,829 - INFO - GPU Memory: 22.06 GB
+2026-02-13 09:56:45,541 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 09:56:45,543 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 09:56:45,543 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 09:59:17,243 - INFO - ============================================================
+2026-02-13 09:59:17,243 - INFO - Experiment completed.
+2026-02-13 09:59:17,243 - INFO - ============================================================
+2026-02-13 09:59:17,244 - INFO - [exp1] Training loss trend is stable/decreasing (start=2.450600, latest=1.876600).
+2026-02-13 09:59:17,244 - INFO - [exp1] Validation loss trend is stable/decreasing (start=2.262473, latest=2.119822).
+2026-02-13 09:59:17,244 - INFO - ============================================================
+2026-02-13 09:59:17,244 - INFO - Experiment: exp2
+2026-02-13 09:59:17,244 - INFO - Train batch: second_batch
+2026-02-13 09:59:17,244 - INFO - Run always: True
+2026-02-13 09:59:17,244 - INFO - Rules: [{'conditions': [{'left': 'exp1.f1', 'op': '>', 'right': 'exp0.f1'}]}]
+2026-02-13 09:59:17,244 - INFO - ============================================================
+2026-02-13 09:59:17,244 - INFO - [RULE 1 - exp2] FAIL -> exp1.f1 > exp0.f1 (0.095860 > 0.144231)
+2026-02-13 09:59:17,244 - INFO - [STOP] exp2 rule 1 failed; checking next rule if available.
+2026-02-13 09:59:17,244 - INFO - [STOP] exp2 did not run because no rule passed; last failure: rule 1 failed because exp1.f1 > exp0.f1 evaluated as 0.095860 > 0.144231.
+2026-02-13 09:59:17,244 - INFO - ============================================================
+2026-02-13 09:59:17,244 - INFO - Experiment: exp3
+2026-02-13 09:59:17,244 - INFO - Train batch: third_batch
+2026-02-13 09:59:17,244 - INFO - Run always: False
+2026-02-13 09:59:17,244 - INFO - Rules: [{'conditions': [{'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'}]}]
+2026-02-13 09:59:17,244 - INFO - ============================================================
+2026-02-13 09:59:17,245 - WARNING - Skipping rule condition {'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'} due to unavailable metric: "Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now."
+2026-02-13 09:59:17,245 - INFO - [RULE 1 - exp3] UNAVAILABLE -> exp2.f1 >= exp1.f1 ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.")
+2026-02-13 09:59:17,245 - INFO - [STOP] exp3 rule 1 failed; checking next rule if available.
+2026-02-13 09:59:17,245 - INFO - [STOP] exp3 did not run because no rule passed; last failure: rule 1 unavailable because exp2.f1 >= exp1.f1 could not be evaluated ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.").
+2026-02-13 09:59:19,037 - INFO - HTML report written to results/report_cars_details_qa.html
+2026-02-13 09:59:19,037 - INFO - Results saved successfully. Best model: Qwen/Qwen2.5-0.5B/exp0 (F1=0.1442)
+2026-02-13 09:59:19,042 - INFO - ============================================================
+2026-02-13 09:59:19,042 - INFO - FINAL RESULTS
+2026-02-13 09:59:19,042 - INFO - ============================================================
+2026-02-13 09:59:19,042 - INFO - Decision: model validation not increasing
+Reason: Fine-tuned runs did not improve F1 over baseline (exp0), so validation gains are not increasing.
+Best Model for dataset 'cars_details_qa': Qwen/Qwen2.5-0.5B/exp0 with F1 Score: 0.1442306881672361 and Latency: 2.5676716526349384
+Pipeline stop details:
+- exp2 did not run because no rule passed; last failure: rule 1 failed because exp1.f1 > exp0.f1 evaluated as 0.095860 > 0.144231.
+- exp3 did not run because no rule passed; last failure: rule 1 unavailable because exp2.f1 >= exp1.f1 could not be evaluated ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.").
+2026-02-13 09:59:19,042 - INFO - ============================================================
+2026-02-13 11:43:13,722 - INFO - GPU detected: NVIDIA A10G
+2026-02-13 11:43:13,722 - INFO - GPU Memory: 23.68 GB
+2026-02-13 11:43:13,722 - INFO - CUDA Version: 12.8
+2026-02-13 11:43:13,722 - INFO - Config files: configs/config_qwen25_cars_qa.json
+2026-02-13 11:43:13,722 - INFO - Running experiments from: configs/config_qwen25_cars_qa.json
+2026-02-13 11:43:14,390 - INFO - ============================================================
+2026-02-13 11:43:14,390 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-13 11:43:14,390 - INFO - Train batch: none
+2026-02-13 11:43:14,390 - INFO - Run always: true
+2026-02-13 11:43:14,390 - INFO - Rules: none
+2026-02-13 11:43:14,390 - INFO - Reason: baseline always runs first for comparison
+2026-02-13 11:43:14,390 - INFO - ============================================================
+2026-02-13 11:43:14,390 - INFO - ============================================================
+2026-02-13 11:43:14,390 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-13 11:43:22,530 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 11:43:22,532 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 11:43:22,532 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 11:45:58,311 - INFO - ============================================================
+2026-02-13 11:45:58,311 - INFO - Experiment: exp1
+2026-02-13 11:45:58,311 - INFO - Train batch: first_batch
+2026-02-13 11:45:58,311 - INFO - Run always: True
+2026-02-13 11:45:58,311 - INFO - Rules: none
+2026-02-13 11:45:58,311 - INFO - ============================================================
+2026-02-13 11:45:58,311 - INFO - [CONTINUE] exp1 has no rules, so it will run.
+2026-02-13 11:45:58,311 - INFO - ============================================================
+2026-02-13 11:45:58,311 - INFO - Starting experiment for model: Qwen/Qwen2.5-0.5B
+2026-02-13 11:45:58,311 - INFO - Chat template: qwen3-instruct
+2026-02-13 11:45:58,311 - INFO - SFT config: batch_size=8, epochs=20, lr=1e-05
+2026-02-13 11:45:58,311 - INFO - ============================================================
+2026-02-13 11:45:58,311 - INFO - Loading model: Qwen/Qwen2.5-0.5B
+2026-02-13 11:46:06,490 - INFO - Starting training...
+2026-02-13 11:46:06,491 - INFO - GPU Memory: 22.06 GB
+2026-02-13 11:53:44,899 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 11:53:44,901 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 11:53:44,901 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 11:56:16,779 - INFO - ============================================================
+2026-02-13 11:56:16,779 - INFO - Experiment completed.
+2026-02-13 11:56:16,779 - INFO - ============================================================
+2026-02-13 11:56:16,779 - INFO - [exp1] Training loss trend is stable/decreasing (start=2.449700, latest=0.703700).
+2026-02-13 11:56:16,779 - INFO - [exp1] Validation loss is increasing (start=2.260436, latest=3.008272).
+2026-02-13 11:56:16,779 - INFO - [exp1] Model may be getting overfit (train loss down while validation loss up).
+2026-02-13 11:56:16,780 - INFO - ============================================================
+2026-02-13 11:56:16,780 - INFO - Experiment: exp2
+2026-02-13 11:56:16,780 - INFO - Train batch: second_batch
+2026-02-13 11:56:16,780 - INFO - Run always: True
+2026-02-13 11:56:16,780 - INFO - Rules: [{'conditions': [{'left': 'exp1.f1', 'op': '>', 'right': 'exp0.f1'}]}]
+2026-02-13 11:56:16,780 - INFO - ============================================================
+2026-02-13 11:56:16,780 - INFO - [RULE 1 - exp2] FAIL -> exp1.f1 > exp0.f1 (0.096358 > 0.144231)
+2026-02-13 11:56:16,780 - INFO - [STOP] exp2 rule 1 failed; checking next rule if available.
+2026-02-13 11:56:16,780 - INFO - [STOP] exp2 did not run because no rule passed; last failure: rule 1 failed because exp1.f1 > exp0.f1 evaluated as 0.096358 > 0.144231.
+2026-02-13 11:56:16,780 - INFO - ============================================================
+2026-02-13 11:56:16,780 - INFO - Experiment: exp3
+2026-02-13 11:56:16,780 - INFO - Train batch: third_batch
+2026-02-13 11:56:16,780 - INFO - Run always: False
+2026-02-13 11:56:16,780 - INFO - Rules: [{'conditions': [{'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'}]}]
+2026-02-13 11:56:16,780 - INFO - ============================================================
+2026-02-13 11:56:16,780 - WARNING - Skipping rule condition {'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'} due to unavailable metric: "Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now."
+2026-02-13 11:56:16,780 - INFO - [RULE 1 - exp3] UNAVAILABLE -> exp2.f1 >= exp1.f1 ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.")
+2026-02-13 11:56:16,780 - INFO - [STOP] exp3 rule 1 failed; checking next rule if available.
+2026-02-13 11:56:16,780 - INFO - [STOP] exp3 did not run because no rule passed; last failure: rule 1 unavailable because exp2.f1 >= exp1.f1 could not be evaluated ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.").
+2026-02-13 11:56:18,579 - INFO - HTML report written to results/report_cars_details_qa.html
+2026-02-13 11:56:18,579 - INFO - Results saved successfully. Best model: Qwen/Qwen2.5-0.5B/exp0 (F1=0.1442)
+2026-02-13 11:56:18,583 - INFO - ============================================================
+2026-02-13 11:56:18,584 - INFO - FINAL RESULTS
+2026-02-13 11:56:18,584 - INFO - ============================================================
+2026-02-13 11:56:18,584 - INFO - Decision: model validation not increasing
+Reason: Fine-tuned runs did not improve F1 over baseline (exp0), so validation gains are not increasing.
+Best Model for dataset 'cars_details_qa': Qwen/Qwen2.5-0.5B/exp0 with F1 Score: 0.1442306881672361 and Latency: 2.5676716526349384
+Pipeline stop details:
+- exp2 did not run because no rule passed; last failure: rule 1 failed because exp1.f1 > exp0.f1 evaluated as 0.096358 > 0.144231.
+- exp3 did not run because no rule passed; last failure: rule 1 unavailable because exp2.f1 >= exp1.f1 could not be evaluated ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.").
+2026-02-13 11:56:18,584 - INFO - ============================================================
+2026-02-13 12:02:24,309 - INFO - GPU detected: NVIDIA A10G
+2026-02-13 12:02:24,309 - INFO - GPU Memory: 23.68 GB
+2026-02-13 12:02:24,309 - INFO - CUDA Version: 12.8
+2026-02-13 12:02:24,309 - INFO - Config files: configs/config_qwen25_cars_qa.json
+2026-02-13 12:02:24,309 - INFO - Running experiments from: configs/config_qwen25_cars_qa.json
+2026-02-13 12:02:24,944 - INFO - ============================================================
+2026-02-13 12:02:24,944 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-13 12:02:24,944 - INFO - Train batch: none
+2026-02-13 12:02:24,944 - INFO - Run always: true
+2026-02-13 12:02:24,944 - INFO - Rules: none
+2026-02-13 12:02:24,944 - INFO - Reason: baseline always runs first for comparison
+2026-02-13 12:02:24,944 - INFO - ============================================================
+2026-02-13 12:02:24,944 - INFO - ============================================================
+2026-02-13 12:02:24,944 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-13 12:02:40,608 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 12:02:40,610 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 12:02:40,610 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 12:06:18,641 - INFO - ============================================================
+2026-02-13 12:06:18,641 - INFO - Experiment: exp1
+2026-02-13 12:06:18,641 - INFO - Train batch: first_batch
+2026-02-13 12:06:18,641 - INFO - Run always: True
+2026-02-13 12:06:18,641 - INFO - Rules: none
+2026-02-13 12:06:18,641 - INFO - ============================================================
+2026-02-13 12:06:18,641 - INFO - [CONTINUE] exp1 has no rules, so it will run.
+2026-02-13 12:06:18,641 - INFO - ============================================================
+2026-02-13 12:06:18,641 - INFO - Starting experiment for model: google/gemma-3-1b-it
+2026-02-13 12:06:18,641 - INFO - Chat template: qwen3-instruct
+2026-02-13 12:06:18,642 - INFO - SFT config: batch_size=8, epochs=20, lr=1e-05
+2026-02-13 12:06:18,642 - INFO - ============================================================
+2026-02-13 12:06:18,642 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-13 12:06:29,077 - INFO - Starting training...
+2026-02-13 12:06:29,077 - INFO - GPU Memory: 22.06 GB
+2026-02-13 12:17:04,070 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 12:17:04,072 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 12:17:04,072 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 12:20:26,579 - INFO - ============================================================
+2026-02-13 12:20:26,579 - INFO - Experiment completed.
+2026-02-13 12:20:26,579 - INFO - ============================================================
+2026-02-13 12:20:26,580 - INFO - [exp1] Training loss trend is stable/decreasing (start=1.716900, latest=0.050900).
+2026-02-13 12:20:26,580 - INFO - [exp1] Validation loss is increasing (start=1.377133, latest=2.460937).
+2026-02-13 12:20:26,580 - INFO - [exp1] Model may be getting overfit (train loss down while validation loss up).
+2026-02-13 12:20:26,580 - INFO - ============================================================
+2026-02-13 12:20:26,580 - INFO - Experiment: exp2
+2026-02-13 12:20:26,580 - INFO - Train batch: second_batch
+2026-02-13 12:20:26,580 - INFO - Run always: True
+2026-02-13 12:20:26,580 - INFO - Rules: [{'conditions': [{'left': 'exp1.f1', 'op': '>', 'right': 'exp0.f1'}]}]
+2026-02-13 12:20:26,580 - INFO - ============================================================
+2026-02-13 12:20:26,581 - INFO - [RULE 1 - exp2] PASS -> exp1.f1 > exp0.f1 (0.164701 > 0.141367)
+2026-02-13 12:20:26,581 - INFO - [CONTINUE] exp2 rule 1 passed, running experiment.
+2026-02-13 12:20:26,581 - INFO - ============================================================
+2026-02-13 12:20:26,581 - INFO - Starting experiment for model: google/gemma-3-1b-it
+2026-02-13 12:20:26,581 - INFO - Chat template: qwen3-instruct
+2026-02-13 12:20:26,581 - INFO - SFT config: batch_size=8, epochs=10, lr=1e-05
+2026-02-13 12:20:26,581 - INFO - ============================================================
+2026-02-13 12:20:26,581 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-13 12:20:38,641 - INFO - Starting training...
+2026-02-13 12:20:38,642 - INFO - GPU Memory: 22.06 GB
+2026-02-13 12:26:53,490 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 12:26:53,492 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 12:26:53,492 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 12:30:16,215 - INFO - ============================================================
+2026-02-13 12:30:16,215 - INFO - Experiment completed.
+2026-02-13 12:30:16,215 - INFO - ============================================================
+2026-02-13 12:30:16,215 - INFO - [exp2] Training loss trend is stable/decreasing (start=1.698800, latest=0.759900).
+2026-02-13 12:30:16,215 - INFO - [exp2] Validation loss trend is stable/decreasing (start=1.416131, latest=1.219440).
+2026-02-13 12:30:16,215 - INFO - ============================================================
+2026-02-13 12:30:16,215 - INFO - Experiment: exp3
+2026-02-13 12:30:16,215 - INFO - Train batch: third_batch
+2026-02-13 12:30:16,215 - INFO - Run always: False
+2026-02-13 12:30:16,215 - INFO - Rules: [{'conditions': [{'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'}]}]
+2026-02-13 12:30:16,215 - INFO - ============================================================
+2026-02-13 12:30:16,216 - INFO - [RULE 1 - exp3] FAIL -> exp2.f1 >= exp1.f1 (0.155514 >= 0.164701)
+2026-02-13 12:30:16,216 - INFO - [STOP] exp3 rule 1 failed; checking next rule if available.
+2026-02-13 12:30:16,216 - INFO - [STOP] exp3 did not run because no rule passed; last failure: rule 1 failed because exp2.f1 >= exp1.f1 evaluated as 0.155514 >= 0.164701.
+2026-02-13 12:30:20,210 - INFO - HTML report written to results/report_cars_details_qa.html
+2026-02-13 12:30:20,210 - INFO - Results saved successfully. Best model: google/gemma-3-1b-it/exp1 (F1=0.1647)
+2026-02-13 12:30:20,214 - INFO - ============================================================
+2026-02-13 12:30:20,215 - INFO - FINAL RESULTS
+2026-02-13 12:30:20,215 - INFO - ============================================================
+2026-02-13 12:30:20,215 - INFO - Decision: model is finetunable
+Reason: Fine-tuning improved measurable quality for dataset 'cars_details_qa' under current thresholds.
+Best Model for dataset 'cars_details_qa': google/gemma-3-1b-it/exp1 with F1 Score: 0.1647014531975066 and Latency: 3.3686080813407897
+Pipeline stop details:
+- exp3 did not run because no rule passed; last failure: rule 1 failed because exp2.f1 >= exp1.f1 evaluated as 0.155514 >= 0.164701.
+2026-02-13 12:30:20,215 - INFO - ============================================================
+2026-02-13 12:54:53,247 - INFO - GPU detected: NVIDIA A10G
+2026-02-13 12:54:53,247 - INFO - GPU Memory: 23.68 GB
+2026-02-13 12:54:53,247 - INFO - CUDA Version: 12.8
+2026-02-13 12:54:53,247 - INFO - Config files: configs/config_qwen25_cars_qa.json
+2026-02-13 12:54:53,247 - INFO - Running experiments from: configs/config_qwen25_cars_qa.json
+2026-02-13 12:54:53,864 - INFO - ============================================================
+2026-02-13 12:54:53,864 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-13 12:54:53,864 - INFO - Train batch: none
+2026-02-13 12:54:53,864 - INFO - Run always: true
+2026-02-13 12:54:53,864 - INFO - Rules: none
+2026-02-13 12:54:53,864 - INFO - Reason: baseline always runs first for comparison
+2026-02-13 12:54:53,864 - INFO - ============================================================
+2026-02-13 12:54:53,864 - INFO - ============================================================
+2026-02-13 12:54:53,864 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-13 12:55:03,243 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 12:55:03,245 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 12:55:03,245 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 12:58:31,620 - INFO - ============================================================
+2026-02-13 12:58:31,621 - INFO - Experiment: exp1
+2026-02-13 12:58:31,621 - INFO - Train batch: first_batch
+2026-02-13 12:58:31,621 - INFO - Run always: True
+2026-02-13 12:58:31,621 - INFO - Rules: none
+2026-02-13 12:58:31,621 - INFO - ============================================================
+2026-02-13 12:58:31,621 - INFO - [CONTINUE] exp1 has no rules, so it will run.
+2026-02-13 12:58:31,621 - INFO - ============================================================
+2026-02-13 12:58:31,621 - INFO - Starting experiment for model: google/gemma-3-1b-it
+2026-02-13 12:58:31,621 - INFO - Chat template: qwen3-instruct
+2026-02-13 12:58:31,621 - INFO - SFT config: batch_size=8, epochs=20, lr=1e-05
+2026-02-13 12:58:31,621 - INFO - ============================================================
+2026-02-13 12:58:31,621 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-13 12:58:41,354 - INFO - Starting training...
+2026-02-13 12:58:41,354 - INFO - GPU Memory: 22.06 GB
+2026-02-13 13:08:18,224 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 13:08:18,226 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 13:08:18,226 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 13:11:39,766 - INFO - ============================================================
+2026-02-13 13:11:39,766 - INFO - Experiment completed.
+2026-02-13 13:11:39,766 - INFO - ============================================================
+2026-02-13 13:11:39,767 - INFO - [exp1] Training loss trend is stable/decreasing (start=1.716900, latest=0.050900).
+2026-02-13 13:11:39,767 - INFO - [exp1] Validation loss is increasing (start=1.377133, latest=2.460937).
+2026-02-13 13:11:39,767 - INFO - [exp1] Model may be getting overfit (train loss down while validation loss up).
+2026-02-13 13:11:39,767 - INFO - ============================================================
+2026-02-13 13:11:39,767 - INFO - Experiment: exp2
+2026-02-13 13:11:39,767 - INFO - Train batch: second_batch
+2026-02-13 13:11:39,767 - INFO - Run always: True
+2026-02-13 13:11:39,767 - INFO - Rules: [{'conditions': [{'left': 'exp1.f1', 'op': '>', 'right': 'exp0.f1'}]}]
+2026-02-13 13:11:39,767 - INFO - ============================================================
+2026-02-13 13:11:39,767 - INFO - [RULE 1 - exp2] PASS -> exp1.f1 > exp0.f1 (0.164701 > 0.141367)
+2026-02-13 13:11:39,768 - INFO - [CONTINUE] exp2 rule 1 passed, running experiment.
+2026-02-13 13:11:39,768 - INFO - ============================================================
+2026-02-13 13:11:39,768 - INFO - Starting experiment for model: google/gemma-3-1b-it
+2026-02-13 13:11:39,768 - INFO - Chat template: qwen3-instruct
+2026-02-13 13:11:39,768 - INFO - SFT config: batch_size=8, epochs=40, lr=1e-05
+2026-02-13 13:11:39,768 - INFO - ============================================================
+2026-02-13 13:11:39,768 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-13 13:11:50,734 - INFO - Starting training...
+2026-02-13 13:11:50,734 - INFO - GPU Memory: 22.06 GB
+2026-02-13 13:17:15,994 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 13:17:15,995 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 13:17:15,996 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 13:20:38,109 - INFO - ============================================================
+2026-02-13 13:20:38,109 - INFO - Experiment completed.
+2026-02-13 13:20:38,109 - INFO - ============================================================
+2026-02-13 13:20:38,110 - INFO - [exp2] Training loss trend is stable/decreasing (start=1.699000, latest=0.815900).
+2026-02-13 13:20:38,110 - INFO - [exp2] Validation loss trend is stable/decreasing (start=1.412628, latest=1.208340).
+2026-02-13 13:20:38,110 - INFO - ============================================================
+2026-02-13 13:20:38,110 - INFO - Experiment: exp3
+2026-02-13 13:20:38,110 - INFO - Train batch: third_batch
+2026-02-13 13:20:38,110 - INFO - Run always: False
+2026-02-13 13:20:38,110 - INFO - Rules: [{'conditions': [{'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'}]}]
+2026-02-13 13:20:38,110 - INFO - ============================================================
+2026-02-13 13:20:38,110 - INFO - [RULE 1 - exp3] FAIL -> exp2.f1 >= exp1.f1 (0.154303 >= 0.164701)
+2026-02-13 13:20:38,110 - INFO - [STOP] exp3 rule 1 failed; checking next rule if available.
+2026-02-13 13:20:38,110 - INFO - [STOP] exp3 did not run because no rule passed; last failure: rule 1 failed because exp2.f1 >= exp1.f1 evaluated as 0.154303 >= 0.164701.
+2026-02-13 13:20:43,291 - INFO - HTML report written to results/report_cars_details_qa.html
+2026-02-13 13:20:43,291 - INFO - Results saved successfully. Best model: google/gemma-3-1b-it/exp1 (F1=0.1647)
+2026-02-13 13:20:43,296 - INFO - ============================================================
+2026-02-13 13:20:43,296 - INFO - FINAL RESULTS
+2026-02-13 13:20:43,296 - INFO - ============================================================
+2026-02-13 13:20:43,296 - INFO - Decision: model is finetunable
+Reason: Fine-tuning improved measurable quality for dataset 'cars_details_qa' under current thresholds.
+Best Model for dataset 'cars_details_qa': google/gemma-3-1b-it/exp1 with F1 Score: 0.1647014531975066 and Latency: 3.352056483427684
+Pipeline stop details:
+- exp3 did not run because no rule passed; last failure: rule 1 failed because exp2.f1 >= exp1.f1 evaluated as 0.154303 >= 0.164701.
+2026-02-13 13:20:43,296 - INFO - ============================================================
+2026-02-13 13:39:44,994 - INFO - GPU detected: NVIDIA A10G
+2026-02-13 13:39:44,994 - INFO - GPU Memory: 23.68 GB
+2026-02-13 13:39:44,994 - INFO - CUDA Version: 12.8
+2026-02-13 13:39:44,994 - INFO - Config files: configs/config_qwen25_cars_qa.json
+2026-02-13 13:39:44,994 - INFO - Running experiments from: configs/config_qwen25_cars_qa.json
+2026-02-13 13:39:45,468 - INFO - ============================================================
+2026-02-13 13:39:45,468 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-13 13:39:45,468 - INFO - Train batch: none
+2026-02-13 13:39:45,468 - INFO - Run always: true
+2026-02-13 13:39:45,468 - INFO - Rules: none
+2026-02-13 13:39:45,468 - INFO - Reason: baseline always runs first for comparison
+2026-02-13 13:39:45,468 - INFO - ============================================================
+2026-02-13 13:39:45,468 - INFO - ============================================================
+2026-02-13 13:39:45,469 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-13 13:39:54,826 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 13:39:54,828 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 13:39:54,828 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 13:43:21,541 - INFO - ============================================================
+2026-02-13 13:43:21,541 - INFO - Experiment: exp1
+2026-02-13 13:43:21,541 - INFO - Train batch: first_batch
+2026-02-13 13:43:21,541 - INFO - Run always: True
+2026-02-13 13:43:21,541 - INFO - Rules: none
+2026-02-13 13:43:21,541 - INFO - ============================================================
+2026-02-13 13:43:21,541 - INFO - [CONTINUE] exp1 has no rules, so it will run.
+2026-02-13 13:43:21,541 - INFO - ============================================================
+2026-02-13 13:43:21,541 - INFO - Starting experiment for model: google/gemma-3-1b-it
+2026-02-13 13:43:21,542 - INFO - Chat template: qwen3-instruct
+2026-02-13 13:43:21,542 - INFO - SFT config: batch_size=8, epochs=20, lr=1e-05
+2026-02-13 13:43:21,542 - INFO - ============================================================
+2026-02-13 13:43:21,542 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-13 13:43:31,180 - INFO - Starting training...
+2026-02-13 13:43:31,181 - INFO - GPU Memory: 22.06 GB
+2026-02-13 13:53:10,578 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 13:53:10,580 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 13:53:10,580 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 13:56:30,643 - INFO - ============================================================
+2026-02-13 13:56:30,643 - INFO - Experiment completed.
+2026-02-13 13:56:30,643 - INFO - ============================================================
+2026-02-13 13:56:30,644 - INFO - [exp1] Training loss trend is stable/decreasing (start=1.716900, latest=0.050900).
+2026-02-13 13:56:30,644 - INFO - [exp1] Validation loss is increasing (start=1.377133, latest=2.460937).
+2026-02-13 13:56:30,644 - INFO - [exp1] Model may be getting overfit (train loss down while validation loss up).
+2026-02-13 13:56:30,644 - INFO - ============================================================
+2026-02-13 13:56:30,644 - INFO - Experiment: exp2
+2026-02-13 13:56:30,644 - INFO - Train batch: second_batch
+2026-02-13 13:56:30,644 - INFO - Run always: True
+2026-02-13 13:56:30,644 - INFO - Rules: [{'conditions': [{'left': 'exp1.f1', 'op': '>', 'right': 'exp0.f1'}]}]
+2026-02-13 13:56:30,644 - INFO - ============================================================
+2026-02-13 13:56:30,644 - INFO - [RULE 1 - exp2] PASS -> exp1.f1 > exp0.f1 (0.171459 > 0.134730)
+2026-02-13 13:56:30,644 - INFO - [CONTINUE] exp2 rule 1 passed, running experiment.
+2026-02-13 13:56:30,644 - INFO - ============================================================
+2026-02-13 13:56:30,644 - INFO - Starting experiment for model: google/gemma-3-1b-it
+2026-02-13 13:56:30,644 - INFO - Chat template: qwen3-instruct
+2026-02-13 13:56:30,644 - INFO - SFT config: batch_size=8, epochs=40, lr=1e-05
+2026-02-13 13:56:30,644 - INFO - ============================================================
+2026-02-13 13:56:30,644 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-13 13:56:41,668 - INFO - Starting training...
+2026-02-13 13:56:41,668 - INFO - GPU Memory: 22.06 GB
+2026-02-13 14:01:24,527 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 14:01:24,529 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 14:01:24,529 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 14:04:44,919 - INFO - ============================================================
+2026-02-13 14:04:44,919 - INFO - Experiment completed.
+2026-02-13 14:04:44,919 - INFO - ============================================================
+2026-02-13 14:04:44,919 - INFO - [exp2] Training loss trend is stable/decreasing (start=1.699000, latest=0.815900).
+2026-02-13 14:04:44,919 - INFO - [exp2] Validation loss trend is stable/decreasing (start=1.412628, latest=1.208340).
+2026-02-13 14:04:44,919 - INFO - ============================================================
+2026-02-13 14:04:44,919 - INFO - Experiment: exp3
+2026-02-13 14:04:44,919 - INFO - Train batch: third_batch
+2026-02-13 14:04:44,919 - INFO - Run always: False
+2026-02-13 14:04:44,919 - INFO - Rules: [{'conditions': [{'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'}]}]
+2026-02-13 14:04:44,920 - INFO - ============================================================
+2026-02-13 14:04:44,920 - INFO - [RULE 1 - exp3] FAIL -> exp2.f1 >= exp1.f1 (0.152530 >= 0.171459)
+2026-02-13 14:04:44,920 - INFO - [STOP] exp3 rule 1 failed; checking next rule if available.
+2026-02-13 14:04:44,920 - INFO - [STOP] exp3 did not run because no rule passed; last failure: rule 1 failed because exp2.f1 >= exp1.f1 evaluated as 0.152530 >= 0.171459.
+2026-02-13 14:04:50,125 - INFO - HTML report written to results/report_cars_details_qa.html
+2026-02-13 14:04:50,125 - INFO - Results saved successfully. Best model: google/gemma-3-1b-it/exp1 (F1=0.1715)
+2026-02-13 14:04:50,129 - INFO - ============================================================
+2026-02-13 14:04:50,129 - INFO - FINAL RESULTS
+2026-02-13 14:04:50,129 - INFO - ============================================================
+2026-02-13 14:04:50,130 - INFO - Decision: model is finetunable
+Reason: Fine-tuning improved measurable quality for dataset 'cars_details_qa' under current thresholds.
+Best Model for dataset 'cars_details_qa': google/gemma-3-1b-it/exp1 with F1 Score: 0.1714592935607943 and Latency: 3.3279089172681173
+Pipeline stop details:
+- exp3 did not run because no rule passed; last failure: rule 1 failed because exp2.f1 >= exp1.f1 evaluated as 0.152530 >= 0.171459.
+2026-02-13 14:04:50,130 - INFO - ============================================================
+2026-02-13 14:24:03,610 - INFO - GPU detected: NVIDIA A10G
+2026-02-13 14:24:03,610 - INFO - GPU Memory: 23.68 GB
+2026-02-13 14:24:03,610 - INFO - CUDA Version: 12.8
+2026-02-13 14:24:03,610 - INFO - Config files: configs/new_config.json
+2026-02-13 14:24:03,610 - INFO - Running experiments from: configs/new_config.json
+2026-02-13 14:24:04,213 - INFO - ============================================================
+2026-02-13 14:24:04,213 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-13 14:24:04,213 - INFO - Train batch: none
+2026-02-13 14:24:04,213 - INFO - Run always: true
+2026-02-13 14:24:04,213 - INFO - Rules: none
+2026-02-13 14:24:04,213 - INFO - Reason: baseline always runs first for comparison
+2026-02-13 14:24:04,213 - INFO - ============================================================
+2026-02-13 14:24:04,213 - INFO - ============================================================
+2026-02-13 14:24:04,213 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-13 14:43:09,101 - INFO - GPU detected: NVIDIA A10G
+2026-02-13 14:43:09,101 - INFO - GPU Memory: 23.68 GB
+2026-02-13 14:43:09,101 - INFO - CUDA Version: 12.8
+2026-02-13 14:43:09,101 - INFO - Config files: configs/new_config.json
+2026-02-13 14:43:09,101 - INFO - Running experiments from: configs/new_config.json
+2026-02-13 14:43:09,612 - INFO - ============================================================
+2026-02-13 14:43:09,612 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-13 14:43:09,612 - INFO - Train batch: none
+2026-02-13 14:43:09,612 - INFO - Run always: true
+2026-02-13 14:43:09,612 - INFO - Rules: none
+2026-02-13 14:43:09,612 - INFO - Reason: baseline always runs first for comparison
+2026-02-13 14:43:09,612 - INFO - ============================================================
+2026-02-13 14:43:09,612 - INFO - ============================================================
+2026-02-13 14:43:09,612 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-13 14:43:18,947 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 14:43:18,949 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 14:43:18,949 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 14:46:44,644 - INFO - ============================================================
+2026-02-13 14:46:44,645 - INFO - Experiment: exp1
+2026-02-13 14:46:44,645 - INFO - Train batch: first_batch
+2026-02-13 14:46:44,645 - INFO - Run always: True
+2026-02-13 14:46:44,645 - INFO - Rules: none
+2026-02-13 14:46:44,645 - INFO - ============================================================
+2026-02-13 14:46:44,645 - INFO - [CONTINUE] exp1 has no rules, so it will run.
+2026-02-13 14:46:44,645 - INFO - ============================================================
+2026-02-13 14:46:44,645 - INFO - Starting experiment for model: google/gemma-3-1b-it
+2026-02-13 14:46:44,645 - INFO - Chat template: qwen3-instruct
+2026-02-13 14:46:44,645 - INFO - SFT config: batch_size=8, epochs=20, lr=1e-05
+2026-02-13 14:46:44,645 - INFO - ============================================================
+2026-02-13 14:46:44,645 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-13 14:46:54,637 - INFO - Starting training...
+2026-02-13 14:46:54,637 - INFO - GPU Memory: 22.06 GB
+2026-02-13 14:56:31,112 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 14:56:31,113 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 14:56:31,114 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 14:59:50,259 - INFO - ============================================================
+2026-02-13 14:59:50,259 - INFO - Experiment completed.
+2026-02-13 14:59:50,259 - INFO - ============================================================
+2026-02-13 14:59:50,259 - INFO - [exp1] Training loss trend is stable/decreasing (start=1.716900, latest=0.050900).
+2026-02-13 14:59:50,259 - INFO - [exp1] Validation loss is increasing (start=1.377133, latest=2.460937).
+2026-02-13 14:59:50,259 - INFO - [exp1] Model may be getting overfit (train loss down while validation loss up).
+2026-02-13 14:59:50,260 - INFO - ============================================================
+2026-02-13 14:59:50,260 - INFO - Experiment: exp2
+2026-02-13 14:59:50,260 - INFO - Train batch: second_batch
+2026-02-13 14:59:50,260 - INFO - Run always: False
+2026-02-13 14:59:50,260 - INFO - Rules: [{'conditions': [{'left': 'exp1.f1', 'op': '>', 'right': 'exp0.f1'}, {'left': 'exp1.val_loss', 'op': '<=', 'right': 'exp0.val_loss'}]}]
+2026-02-13 14:59:50,260 - INFO - ============================================================
+2026-02-13 14:59:50,260 - WARNING - Skipping rule condition {'left': 'exp1.val_loss', 'op': '<=', 'right': 'exp0.val_loss'} due to unavailable metric: "Unknown metric 'val_loss' for exp1"
+2026-02-13 14:59:50,260 - INFO - [RULE 1 - exp2] PASS -> exp1.f1 > exp0.f1 (0.171459 > 0.134730)
+2026-02-13 14:59:50,260 - INFO - [RULE 1 - exp2] UNAVAILABLE -> exp1.val_loss <= exp0.val_loss ("Unknown metric 'val_loss' for exp1")
+2026-02-13 14:59:50,260 - INFO - [STOP] exp2 rule 1 failed; checking next rule if available.
+2026-02-13 14:59:50,260 - INFO - [STOP] exp2 did not run because no rule passed; last failure: rule 1 unavailable because exp1.val_loss <= exp0.val_loss could not be evaluated ("Unknown metric 'val_loss' for exp1").
+2026-02-13 14:59:50,260 - INFO - ============================================================
+2026-02-13 14:59:50,260 - INFO - Experiment: exp3
+2026-02-13 14:59:50,260 - INFO - Train batch: third_batch
+2026-02-13 14:59:50,260 - INFO - Run always: False
+2026-02-13 14:59:50,260 - INFO - Rules: [{'conditions': [{'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'}, {'left': 'exp2.val_loss', 'op': '<=', 'right': 'exp1.val_loss'}]}]
+2026-02-13 14:59:50,260 - INFO - ============================================================
+2026-02-13 14:59:50,260 - WARNING - Skipping rule condition {'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'} due to unavailable metric: "Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now."
+2026-02-13 14:59:50,260 - INFO - [RULE 1 - exp3] UNAVAILABLE -> exp2.f1 >= exp1.f1 ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.")
+2026-02-13 14:59:50,260 - INFO - [STOP] exp3 rule 1 failed; checking next rule if available.
+2026-02-13 14:59:50,261 - INFO - [STOP] exp3 did not run because no rule passed; last failure: rule 1 unavailable because exp2.f1 >= exp1.f1 could not be evaluated ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.").
+2026-02-13 14:59:53,544 - INFO - HTML report written to results/report_cars_details_qa.html
+2026-02-13 14:59:53,544 - INFO - Results saved successfully. Best model: google/gemma-3-1b-it/exp1 (F1=0.1715)
+2026-02-13 14:59:53,548 - INFO - ============================================================
+2026-02-13 14:59:53,549 - INFO - FINAL RESULTS
+2026-02-13 14:59:53,549 - INFO - ============================================================
+2026-02-13 14:59:53,549 - INFO - Decision: model is finetunable
+Reason: Fine-tuning improved measurable quality for dataset 'cars_details_qa' under current thresholds.
+Best Model for dataset 'cars_details_qa': google/gemma-3-1b-it/exp1 with F1 Score: 0.1714592935607943 and Latency: 3.3115069468816123
+Pipeline stop details:
+- exp2 did not run because no rule passed; last failure: rule 1 unavailable because exp1.val_loss <= exp0.val_loss could not be evaluated ("Unknown metric 'val_loss' for exp1").
+- exp3 did not run because no rule passed; last failure: rule 1 unavailable because exp2.f1 >= exp1.f1 could not be evaluated ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.").
+2026-02-13 14:59:53,549 - INFO - ============================================================
+2026-02-13 15:14:21,737 - INFO - GPU detected: NVIDIA A10G
+2026-02-13 15:14:21,737 - INFO - GPU Memory: 23.68 GB
+2026-02-13 15:14:21,737 - INFO - CUDA Version: 12.8
+2026-02-13 15:14:21,737 - INFO - Config files: configs/new_config.json
+2026-02-13 15:14:21,737 - INFO - Running experiments from: configs/new_config.json
+2026-02-13 15:14:22,192 - INFO - ============================================================
+2026-02-13 15:14:22,192 - INFO - Experiment: exp0 (automatic baseline)
+2026-02-13 15:14:22,192 - INFO - Train batch: none
+2026-02-13 15:14:22,192 - INFO - Run always: true
+2026-02-13 15:14:22,192 - INFO - Rules: none
+2026-02-13 15:14:22,192 - INFO - Reason: baseline always runs first for comparison
+2026-02-13 15:14:22,193 - INFO - ============================================================
+2026-02-13 15:14:22,193 - INFO - ============================================================
+2026-02-13 15:14:22,193 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-13 15:14:31,617 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 15:14:31,619 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 15:14:31,619 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 15:17:59,139 - INFO - ============================================================
+2026-02-13 15:17:59,139 - INFO - Experiment: exp1
+2026-02-13 15:17:59,140 - INFO - Train batch: first_batch
+2026-02-13 15:17:59,140 - INFO - Run always: True
+2026-02-13 15:17:59,140 - INFO - Rules: none
+2026-02-13 15:17:59,140 - INFO - ============================================================
+2026-02-13 15:17:59,140 - INFO - [CONTINUE] exp1 has no rules, so it will run.
+2026-02-13 15:17:59,140 - INFO - ============================================================
+2026-02-13 15:17:59,140 - INFO - Starting experiment for model: google/gemma-3-1b-it
+2026-02-13 15:17:59,140 - INFO - Chat template: qwen3-instruct
+2026-02-13 15:17:59,140 - INFO - SFT config: batch_size=8, epochs=20, lr=1e-05
+2026-02-13 15:17:59,140 - INFO - ============================================================
+2026-02-13 15:17:59,140 - INFO - Loading model: google/gemma-3-1b-it
+2026-02-13 15:18:08,984 - INFO - Starting training...
+2026-02-13 15:18:08,985 - INFO - GPU Memory: 22.06 GB
+2026-02-13 15:27:48,556 - INFO - Evaluating 60 samples with eval_batch_size=4
+2026-02-13 15:27:48,558 - INFO - Use pytorch device_name: cuda:0
+2026-02-13 15:27:48,558 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-02-13 15:31:09,787 - INFO - ============================================================
+2026-02-13 15:31:09,787 - INFO - Experiment completed.
+2026-02-13 15:31:09,787 - INFO - ============================================================
+2026-02-13 15:31:09,788 - INFO - [exp1] Training loss trend is stable/decreasing (start=1.716900, latest=0.050900).
+2026-02-13 15:31:09,788 - INFO - [exp1] Validation loss is increasing (start=1.377133, latest=2.460937).
+2026-02-13 15:31:09,788 - INFO - [exp1] Model may be getting overfit (train loss down while validation loss up).
+2026-02-13 15:31:09,788 - INFO - ============================================================
+2026-02-13 15:31:09,788 - INFO - Experiment: exp2
+2026-02-13 15:31:09,788 - INFO - Train batch: second_batch
+2026-02-13 15:31:09,788 - INFO - Run always: False
+2026-02-13 15:31:09,788 - INFO - Rules: [{'conditions': [{'left': 'exp1.f1', 'op': '>', 'right': 'exp0.f1'}, {'left': 'exp1.min_eval_loss', 'op': '<=', 'right': 'exp0.min_eval_loss'}]}]
+2026-02-13 15:31:09,788 - INFO - ============================================================
+2026-02-13 15:31:09,788 - WARNING - Skipping rule condition {'left': 'exp1.min_eval_loss', 'op': '<=', 'right': 'exp0.min_eval_loss'} due to unavailable metric: "Logs are empty for experiment 'exp0'. Cannot extract metric 'min_eval_loss'."
+2026-02-13 15:31:09,788 - INFO - [RULE 1 - exp2] PASS -> exp1.f1 > exp0.f1 (0.171459 > 0.134730)
+2026-02-13 15:31:09,788 - INFO - [RULE 1 - exp2] UNAVAILABLE -> exp1.min_eval_loss <= exp0.min_eval_loss ("Logs are empty for experiment 'exp0'. Cannot extract metric 'min_eval_loss'.")
+2026-02-13 15:31:09,788 - INFO - [STOP] exp2 rule 1 failed; checking next rule if available.
+2026-02-13 15:31:09,789 - INFO - [STOP] exp2 did not run because no rule passed; last failure: rule 1 unavailable because exp1.min_eval_loss <= exp0.min_eval_loss could not be evaluated ("Logs are empty for experiment 'exp0'. Cannot extract metric 'min_eval_loss'.").
+2026-02-13 15:31:09,789 - INFO - ============================================================
+2026-02-13 15:31:09,789 - INFO - Experiment: exp3
+2026-02-13 15:31:09,789 - INFO - Train batch: third_batch
+2026-02-13 15:31:09,789 - INFO - Run always: False
+2026-02-13 15:31:09,789 - INFO - Rules: [{'conditions': [{'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'}, {'left': 'exp2.min_eval_loss', 'op': '<=', 'right': 'exp1.min_eval_loss'}]}]
+2026-02-13 15:31:09,789 - INFO - ============================================================
+2026-02-13 15:31:09,789 - WARNING - Skipping rule condition {'left': 'exp2.f1', 'op': '>=', 'right': 'exp1.f1'} due to unavailable metric: "Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now."
+2026-02-13 15:31:09,789 - INFO - [RULE 1 - exp3] UNAVAILABLE -> exp2.f1 >= exp1.f1 ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.")
+2026-02-13 15:31:09,789 - INFO - [STOP] exp3 rule 1 failed; checking next rule if available.
+2026-02-13 15:31:09,789 - INFO - [STOP] exp3 did not run because no rule passed; last failure: rule 1 unavailable because exp2.f1 >= exp1.f1 could not be evaluated ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.").
+2026-02-13 15:31:13,077 - INFO - HTML report written to results/report_cars_details_qa.html
+2026-02-13 15:31:13,077 - INFO - Results saved successfully. Best model: google/gemma-3-1b-it/exp1 (F1=0.1715)
+2026-02-13 15:31:13,081 - INFO - ============================================================
+2026-02-13 15:31:13,081 - INFO - FINAL RESULTS
+2026-02-13 15:31:13,081 - INFO - ============================================================
+2026-02-13 15:31:13,081 - INFO - Decision: model is finetunable
+Reason: Fine-tuning improved measurable quality for dataset 'cars_details_qa' under current thresholds.
+Best Model for dataset 'cars_details_qa': google/gemma-3-1b-it/exp1 with F1 Score: 0.1714592935607943 and Latency: 3.3115069468816123
+Pipeline stop details:
+- exp2 did not run because no rule passed; last failure: rule 1 unavailable because exp1.min_eval_loss <= exp0.min_eval_loss could not be evaluated ("Logs are empty for experiment 'exp0'. Cannot extract metric 'min_eval_loss'.").
+- exp3 did not run because no rule passed; last failure: rule 1 unavailable because exp2.f1 >= exp1.f1 could not be evaluated ("Experiment 'exp2' has no results yet. Any rule depending on it cannot be evaluated right now.").
+2026-02-13 15:31:13,081 - INFO - ============================================================
