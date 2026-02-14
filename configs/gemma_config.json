@@ -77,7 +77,7 @@
         {
           "conditions": [
             { "left": "exp1.f1", "op": ">", "right": "exp0.f1" },
-            { "left": "exp1.min_eval_loss", "op": "<=", "right": "exp0.min_eval_loss" }
+           
           ]
         }
       ]
